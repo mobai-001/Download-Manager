@@ -5,9 +5,8 @@ const progressStream = require('progress-stream');
 const nodemailer = require('nodemailer');
 
 
-//下载 的文件 地址 （https://us-5.offcloud.com:3010/download/62452f8ee0cc0c32baa0fed3/6245310cc2cf71327c3d5939）
-//vscode地址：https://az764295.vo.msecnd.net/stable/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/VSCodeUserSetup-x64-1.52.1.exe
-let fileURL = 'https://az764295.vo.msecnd.net/stable/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/VSCodeUserSetup-x64-1.52.1.exe';
+//下载 的文件 地址
+let fileURL = 'https://us-5.offcloud.com:3010/download/62452f8ee0cc0c32baa0fed3/6245310cc2cf71327c3d5939';
 
 //分割后文件集合
 let attachments = [];
